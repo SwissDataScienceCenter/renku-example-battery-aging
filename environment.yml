@@ -1,0 +1,12 @@
+name: battery-ageing
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pandas>=2.2
+  - pyarrow>=15
+  - numpy
+  - matplotlib
+  - plotly
+  - streamlit>=1.40
